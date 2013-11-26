@@ -39,3 +39,5 @@ end
       it { should have_title('Sign in') }
       it { should have_selector('div.alert.alert-error', text: 'Invalid') }
     end
+  end
+end

@@ -81,7 +81,7 @@ describe User do
       user_with_same_email.email = @user.email.upcase
       user_with_same_email.save
     end
-    end
+  end
     
     
   it { should respond_to(:authenticate) }
