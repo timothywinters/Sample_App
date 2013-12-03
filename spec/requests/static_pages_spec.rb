@@ -1,11 +1,12 @@
 require 'spec_helper'
 
 describe "Static pages" do
-
+    include Rails.application.routes.url_helpers
   subject { page }
 
   describe "Home page" do
     before { visit root_path }
+        include Rails.application.routes.url_helpers
 
     it { should have_content('Sample App') }
     it { should have_title(full_title('')) }
