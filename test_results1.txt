@@ -1,0 +1,44 @@
+...............................FFFF.........
+
+Failures:
+
+  1) Authentication signin page with valid information 
+     Failure/Error: click_button "Sign in"
+     ActionView::MissingTemplate:
+       Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+         * "/home/timothy/Development/Code_School/Portland_Code_School/pcs_githubs/Rails/rails_projects/sample_app/app/views"
+     # ./spec/requests/authentication_pages_spec.rb:15:in `block (4 levels) in <top (required)>'
+
+  2) Authentication signin page with valid information 
+     Failure/Error: click_button "Sign in"
+     ActionView::MissingTemplate:
+       Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+         * "/home/timothy/Development/Code_School/Portland_Code_School/pcs_githubs/Rails/rails_projects/sample_app/app/views"
+     # ./spec/requests/authentication_pages_spec.rb:15:in `block (4 levels) in <top (required)>'
+
+  3) Authentication signin page with valid information 
+     Failure/Error: click_button "Sign in"
+     ActionView::MissingTemplate:
+       Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+         * "/home/timothy/Development/Code_School/Portland_Code_School/pcs_githubs/Rails/rails_projects/sample_app/app/views"
+     # ./spec/requests/authentication_pages_spec.rb:15:in `block (4 levels) in <top (required)>'
+
+  4) Authentication signin page with valid information 
+     Failure/Error: click_button "Sign in"
+     ActionView::MissingTemplate:
+       Missing template sessions/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+         * "/home/timothy/Development/Code_School/Portland_Code_School/pcs_githubs/Rails/rails_projects/sample_app/app/views"
+     # ./spec/requests/authentication_pages_spec.rb:15:in `block (4 levels) in <top (required)>'
+
+Finished in 1.35 seconds
+44 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/requests/authentication_pages_spec.rb:20 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:18 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:19 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:21 # Authentication signin page with valid information 
+
+Randomized with seed 56257
+
