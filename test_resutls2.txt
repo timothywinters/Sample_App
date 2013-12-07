@@ -1,0 +1,210 @@
+FFFFFFFFFFFFF......................FFFFFFFFF
+
+Failures:
+
+  1) User pages profile page 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x00000001409240>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  2) User pages profile page 
+     Failure/Error: before { visit user_path(user) }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x000000037b1f30>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+
+  3) User pages signup page 
+     Failure/Error: before { visit signup_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x000000040ab8e8>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  4) User pages signup page 
+     Failure/Error: before { visit signup_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x00000001cb23b0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  5) User pages signup page User pages signup with invalid information should not create a user
+     Failure/Error: before { visit signup_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x000000040b3750>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  6) User pages signup page User pages signup with valid information should create a user
+     Failure/Error: before { visit signup_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x000000013a76a8>:0x00000001271338>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/user_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  7) Authentication signin page with valid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x000000040693d0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  8) Authentication signin page with valid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x000000042a0ae0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  9) Authentication signin page with valid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x00000003e8c788>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  10) Authentication signin page with valid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x000000041ac6c0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  11) Authentication signin with invalid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x00000003c2db90>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  12) Authentication signin with invalid information 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x00000004183db0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  13) Authentication signin with invalid information after visiting another page 
+     Failure/Error: before { visit signin_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x0000000406b888>:0x00000003beb998>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/authentication_pages_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  14) Static pages Contact page 
+     Failure/Error: before { visit contact_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000001bae0e0>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  15) Static pages Contact page 
+     Failure/Error: before { visit contact_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x000000040cfb58>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:30:in `block (3 levels) in <top (required)>'
+
+  16) Static pages Help page 
+     Failure/Error: before { visit help_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000001b54338>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  17) Static pages Help page 
+     Failure/Error: before { visit help_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x000000040ee0f8>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  18) Static pages Home page 
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000001c6cb80>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  19) Static pages Home page 
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x000000042e1f90>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  20) Static pages Home page 
+     Failure/Error: before { visit root_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000003ca6888>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:8:in `block (3 levels) in <top (required)>'
+
+  21) Static pages About page 
+     Failure/Error: before { visit about_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000004329070>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:23:in `block (3 levels) in <top (required)>'
+
+  22) Static pages About page 
+     Failure/Error: before { visit about_path }
+     ActionView::Template::Error:
+       undefined method `signed_in?' for #<#<Class:0x00000001baf2b0>:0x00000003f3d150>
+     # ./app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__537342760453312314_36037680'
+     # ./app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__2025943503653762202_23083180'
+     # ./spec/requests/static_pages_spec.rb:23:in `block (3 levels) in <top (required)>'
+
+Finished in 1.86 seconds
+44 examples, 22 failures
+
+Failed examples:
+
+rspec ./spec/requests/user_pages_spec.rb:11 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:12 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:18 # User pages signup page 
+rspec ./spec/requests/user_pages_spec.rb:19 # User pages signup page 
+rspec ./spec/requests/user_pages_spec.rb:33 # User pages signup page User pages signup with invalid information should not create a user
+rspec ./spec/requests/user_pages_spec.rb:46 # User pages signup page User pages signup with valid information should create a user
+rspec ./spec/requests/authentication_pages_spec.rb:21 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:19 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:18 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:20 # Authentication signin page with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:33 # Authentication signin with invalid information 
+rspec ./spec/requests/authentication_pages_spec.rb:34 # Authentication signin with invalid information 
+rspec ./spec/requests/authentication_pages_spec.rb:38 # Authentication signin with invalid information after visiting another page 
+rspec ./spec/requests/static_pages_spec.rb:32 # Static pages Contact page 
+rspec ./spec/requests/static_pages_spec.rb:33 # Static pages Contact page 
+rspec ./spec/requests/static_pages_spec.rb:18 # Static pages Help page 
+rspec ./spec/requests/static_pages_spec.rb:19 # Static pages Help page 
+rspec ./spec/requests/static_pages_spec.rb:12 # Static pages Home page 
+rspec ./spec/requests/static_pages_spec.rb:11 # Static pages Home page 
+rspec ./spec/requests/static_pages_spec.rb:10 # Static pages Home page 
+rspec ./spec/requests/static_pages_spec.rb:25 # Static pages About page 
+rspec ./spec/requests/static_pages_spec.rb:26 # Static pages About page 
+
+Randomized with seed 58831
+
